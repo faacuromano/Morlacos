@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-family: 'Ubuntu Condensed'  
+}
+
+.FrontHome {
+    display: flex;
+    background-size: cover;
+    background-image: url("./asd.jpg");
+    height: 92vh;
+
+}
+
+/*
+.FrontHomeDivition{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: rgb(211, 211, 211);
+    border-radius: 0;
+    padding: 4%;
+    min-width: 50%;
+    height:auto;
+}
+*/
+/*
+.FrontHome {
+    display: flex;
+    background-size: cover;
+    background-image: url(http://localhost:3000/static/media/fondo.817c3da….png);
+    flex-direction: column;
+    max-height: 90vh;
+}
+*/
+h4{
+    text-align: center;
+}
+
+
+.FrontHomeDivition {
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    color: rgb(211, 211, 211);
+    /* border-radius: 0; */
+    min-width: 50%;
+    padding: 8%;
+    padding-top: 14%;
+    max-width: 50%; 
+    flex-direction: column;
+    
+}
+
+.description{
+    font-family: 'Roboto';
+    line-height: 35px;
+}
+
+.sub-title {
+    color: rgb(105, 128, 172);
+    margin-bottom: 9%;
+    font-size: larger;
+}
+
+.imageFondo {
+    margin-left: 60px;
+    margin-right: 60px;
+    max-height: 50%;
+    animation: animate 5s linear infinite;
+    transform-origin: top center;
+}
+
+@keyframes animate {
+    0%  {transform: rotate(0deg);}
+    25% {transform: rotate(-20deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(20deg);}
+}
