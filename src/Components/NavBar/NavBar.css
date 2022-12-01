@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Odinson;
+    src: url('../../Fonts/Odinson.ttf') format('truetype');
+    font-style: normal;
+}
+
+.Logo{
+    font-family: "Odinson";
+    margin: .0rem!important;
+}
+
+.links{
+    display: flex;
+}
+
+.link{
+    color:rgb(218, 218, 218);
+    padding-right: 10px;
+}
+
+.linkSingUp{
+    font-weight: 700;
+    color:rgb(170, 203, 255);
+    margin-left: 20px;
+    padding: 2%;
+    border-radius: 2px;
+}
+
+.link:hover{
+    transition: all .5s;
+    transform: scale(1.25);
+    color:rgb(255, 255, 255);
+}
+
+.linkSingUp:hover{
+    transition: all .5s;
+    background-color: rgba(2, 2, 2, 0);
+    margin-right: 100%;
+}
+
+.navbar{
+    padding: 1%;
+    background-color: rgb(34, 35, 41);
+}
+html{
+    scroll-behavior: smooth;
+}
